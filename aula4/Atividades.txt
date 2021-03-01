@@ -1,0 +1,17 @@
+Atividade 1:
+No sistema da academia (aula2) acrescentar:
+- Tela inicial
+- Cálculo automático do IMC do aluno
+
+Atividade 2:
+Desenvolver um sistema de gestão escolar
+- Tela inicial
+- Cadastro do aluno:
+  - Nome do aluno
+  - Idade
+  - Sexo
+  - Disciplina
+  - Nota do 1º bimestre
+  - Nota do 2º bimestre
+  - Nota do 3º bimestre
+  - Nota do 4º bimestre
