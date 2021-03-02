@@ -9,6 +9,7 @@
 
 int main(int argc, char *argv[]) {
 	setlocale(LC_ALL,"Portuguese");
+	system("color 09");
 	printf(" ______   ______   __  __            _       _                 _       \n");
 	printf("|  ____| |  ____| |  \\/  |          (_)     | |               | |      \n");
 	printf("| |__    | |__    | \\  / | __ _ _ __ _ _ __ | |__   __ _    __| | ___  \n");
@@ -49,16 +50,20 @@ int main(int argc, char *argv[]) {
 	system("cls");
 
 	//variáveis
-	float nota1,nota2,media;
+	float nota1,nota2,nota3,nota4,media;
 	//entrada
-	printf("Digite a nota 1: ");
+	printf("Digite a nota do 1 Bimestre: ");
 	scanf("%f",&nota1);
-	printf("Digite a nota 2: ");
+	printf("Digite a nota do 2 Bimestre: ");
 	scanf("%f",&nota2);
+	printf("Digite a nota do 3 Bimestre: ");
+	scanf("%f",&nota3);
+	printf("Digite a nota do 4 Bimestre: ");
+	scanf("%f",&nota4);
 	//processamento
-	media = (nota1 + nota2) / 2;
+	media = (nota1 + nota2 + nota3 + nota4) / 4;
 	//saída
-	printf("Resultado: %.1f\n", media);
+	printf("Média Anual: %.1f\n", media);
 	
 	system("pause");
 	return 0;
