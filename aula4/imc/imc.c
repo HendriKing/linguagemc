@@ -4,7 +4,7 @@
 
 /* 
 	Cálculo do IMC
-	@author Professor José de Assis
+	@author Hendrik Vinicius
 */
 
 int main(int argc, char *argv[]) {
@@ -28,6 +28,22 @@ int main(int argc, char *argv[]) {
 	imc = peso / (altura * altura);
 	//saída
 	printf("IMC: %.2f\n",imc);
+	//Classificação de acordo com a tabela IMC
+	if (imc < 17){
+		printf("Muito abaixo do peso\n");
+	} else if (imc < 18.5){
+		printf("Abaixo do peso\n");
+	} else if (imc < 25){
+		printf("Peso normal\n");
+	} else if (imc < 30){
+		printf("Acima do peso\n");
+	} else if (imc < 35){
+		printf("Obesidade I\n");
+	} else if (imc < 40){
+		printf("Obesidade II (severa)\n");
+	} else
+		printf("Obesidade III (mórbita)\n");
+	}
 	system("pause");
 	return 0;
 }

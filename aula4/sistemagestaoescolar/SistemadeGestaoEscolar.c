@@ -64,7 +64,11 @@ int main(int argc, char *argv[]) {
 	media = (nota1 + nota2 + nota3 + nota4) / 4;
 	//saída
 	printf("Média Anual: %.1f\n", media);
-	
+		//saída
+	if (media < 4.99){
+		printf("REPROVADO\n");
+	} else {
+		printf("APROVADO\n");
 	system("pause");
 	return 0;
 }

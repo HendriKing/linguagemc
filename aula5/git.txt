@@ -1,0 +1,42 @@
+Introdução ao GIT
+
+Passo 1: Instalar o aplicativo no Windows:
+https://git-scm.com/
+
+Passo 2: Abrir um terminal (git bash) e digitar os seguintes comandos (configuração inicial do git)
+
+git config --global user.name "seu_nome"
+git config --global user.email "seu_email_github"
+
+Passo 3: Clonando um repositório GITHUB
+git clone link_do_repositorio
+
+Passo 4: Verificar o status do repositório
+git status
+
+Passo 5: Após alterações, adicionar o projeto ao repositório local
+git add .
+
+Passo 6: Documentar as alterações do projeto
+git commit -m "descrição das alterações"
+
+Passo 7: Enviar as alterações ao GITHUB
+git push
+
+_____________________________________________________________
+Sicncronizando as alterações do GITHUB no computador local:
+
+Passo 1: Na pasta clonada do repositório no computador (Importante!)
+Abrir um terminal Git Bash (botão direito do mouse -> git bash here)
+
+Passo 2: Digitar o comando:
+git pull
+
+
+
+
+
+
+
+
+
