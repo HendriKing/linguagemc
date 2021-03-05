@@ -1,0 +1,41 @@
+Operadores lógicos:
+//Podem ser usados em qualquer estrutura de controle (exceto switch case)
+
+AND ( && )
+OR  ( || )
+NOT ( !  )
+
+Simulador:
+https://professorjosedeassis.github.io/logical-operators/
+
+Atividade:
+Desenvolver um aplicativo em C (MS-DOS) para verificar a obrigatoriedade de votar em função da idade.
+Critérios:
+PROIBIDO VOTAR (menor de 16 anos)
+OBRIGATÓRIO VOTAR (de 18 a 70 anos)
+VOTO FACULTATIVO (16, 17 ou acima de 70 anos)
+
+variáveis:
+idade (número inteiro)
+
+entrada:
+idade
+
+processamento / saída
+estrutura de controle
+
+De 18 a 70 anos
+//(idade > 17 && idade < 71)
+
+16, 17 ou acima de 70 anos
+//(idade > 15== 16 || idade == 17 || idade > 70)
+
+
+
+
+
+
+
+
+
+

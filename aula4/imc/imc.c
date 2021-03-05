@@ -41,7 +41,7 @@ int main(int argc, char *argv[]) {
 		printf("Obesidade I\n");
 	} else if (imc < 40){
 		printf("Obesidade II (severa)\n");
-	} else
+	} else {
 		printf("Obesidade III (mórbita)\n");
 	}
 	system("pause");

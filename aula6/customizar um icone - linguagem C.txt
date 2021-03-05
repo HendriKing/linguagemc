@@ -1,0 +1,13 @@
+Passo 1:
+Copiar um arquivo de ícone para a pasta do projeto
+
+Passo 2:
+Em projeto, com o botão direito do mouse criar um novo arquivo
+Digitar:
+MAINICON ICON "icone.ico"
+
+Passo 3:
+Salvar com o formato Resources scripts (.rc)
+
+Passo 4:
+Compilar (O executável é gerado com o ícone customizado) 

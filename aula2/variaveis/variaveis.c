@@ -4,7 +4,7 @@
 
 /*
 	Estudo das variáveis
-	@author José de Assis 
+	@author Hendrik Vinicius
 */
 
 int main(int argc, char *argv[]) {

@@ -4,7 +4,7 @@
 
 /* 
 	Cálculo da média
-	@author Professor José de Assis
+	@author Hendrik Vinicius
 */
 
 int main(int argc, char *argv[]) {

@@ -1,0 +1,15 @@
+Atividade 1: Sistema de gestão da Academia (Aula 2 variáveis)
+Na tela principal adicionar um menu de opções:
+1. Funcionários
+2. Aluno
+3. Sobre
+
+Sobre:
+Desenvolvido por: Seu nome
+Sob a licença MIT
+GITHUB: link do projeto no GITHUB
+
+Customizar um ícone
+
+Atividade 2: Sistema de gestão escolar
+Customizar um ícone
